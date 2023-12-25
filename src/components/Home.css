@@ -1,0 +1,57 @@
+.app {
+  background: url("https://cdn.dribbble.com/userupload/7962270/file/original-137ec78b9798286c20cc9e81b09d05dd.png?resize=1200x900");
+  height: 100vh;
+}
+.sound-wave{
+  width: 300px;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home_btn {
+  cursor: pointer;
+  background-color: aquamarine;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 17px;
+  transition: all 0.5s ease-in-out;
+}
+.home_btn:hover{
+    transform: scale(1.1);
+}
+.col {
+    background-color: rgb(249, 143, 56);
+  }
+.home_h1 {
+  margin-top: 60px;
+  font-weight: 900;
+  font-size: 40px;
+  color: rgb(244, 238, 156);
+}
+
+.popup{
+ position: fixed;
+ right: 3%;
+ bottom: 1%;
+
+}
+.popup > img{
+  width:100px;
+  border-radius: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.popup > img:hover{
+  width: 150px;
+  cursor: pointer;
+}
